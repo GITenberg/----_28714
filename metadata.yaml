@@ -1,0 +1,30 @@
+_repo: '----_28714'
+_version: 0.1.0
+alternative_title: Tang Cai Zi Zhuan
+covers:
+- cover_type: generated
+  image_path: cover.png
+creator:
+  author:
+    agent_name: Xin, Wenfang, active 13th century-14th century
+    aliases:
+    - Hsin, Liang-shih
+    - Hsin, Wen-fang
+    - 辛文房
+    - Xin, Liangshi
+    gutenberg_agent_id: '33500'
+    url: http://www.gutenberg.org/2009/agents/33500
+description: ''
+gutenberg_issued: '2009-05-07'
+gutenberg_type: Text
+identifiers:
+  gutenberg: '28714'
+language: zh
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+rights_url: http://creativecommons.org/about/pdm
+subjects:
+- !lcc 'PL'
+- !lcsh 'Poets, Chinese -- Tang dynasty, 618-907 -- Biography'
+title: 唐才子傳
+url: http://www.gutenberg.org/ebooks/28714
