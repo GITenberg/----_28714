@@ -1,56 +1,121 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xml:base="http://www.gutenberg.org/"
-  xmlns:cc="http://web.resource.org/cc/"
   xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:dcam="http://purl.org/dc/dcam/"
-  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
+  xmlns:cc="http://web.resource.org/cc/"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
+  xmlns:dcam="http://purl.org/dc/dcam/"
 >
   <pgterms:ebook rdf:about="ebooks/28714">
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/28714.epub.noimages">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-17T08:23:44.416645</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/28714"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">173434</dcterms:extent>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/28714/28714-0.txt">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">273517</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N43d7b229d6774c1dbd68e84f2e7ecccc">
+          <rdf:Description rdf:nodeID="Na53ff66939604ca98566dd6f7ac4325f">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-07T14:53:46</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/28714"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:title>唐才子傳</dcterms:title>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N59cb4fd7014142a58292a0a94360bad5">
+        <rdf:value>Poets, Chinese -- Tang dynasty, 618-907 -- Biography</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/28714.html.noimages">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N3225334fced44c4b91b2dc48a41d2a8f">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T03:43:12.498924</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/28714"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">338176</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/28714.rdf">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9962</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T03:43:15.830847</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ndebf3783823c487b8db4ba509491ee9c">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/28714"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/28714.epub.noimages">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T03:43:12.945916</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/28714"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">168474</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Na21f059d0f644dbbaf207e34154d91ca">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:title>唐才子傳</dcterms:title>
+    <dcterms:type>
+      <rdf:Description rdf:nodeID="N6e322028ac3442e7b85b374dd0269d4f">
+        <rdf:value>Text</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
+      </rdf:Description>
+    </dcterms:type>
+    <dcterms:creator>
+      <pgterms:agent rdf:about="2009/agents/33500">
+        <pgterms:alias>Xin, Liangshi</pgterms:alias>
+        <pgterms:alias>Hsin, Liang-shih</pgterms:alias>
+        <pgterms:name>Xin, Wenfang, active 13th century-14th century</pgterms:name>
+        <pgterms:alias>Hsin, Wen-fang</pgterms:alias>
+        <pgterms:alias>辛文房</pgterms:alias>
+      </pgterms:agent>
+    </dcterms:creator>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/28714.html.gen">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">331596</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/28714"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-17T08:23:42.899175</dcterms:modified>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/28714.kindle.images">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">673322</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T03:43:14.349879</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N5ee8f846eeb74ae798e31c47cff7f122">
+          <rdf:Description rdf:nodeID="Ne35a1d322564498081bfdd10bf17c318">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
           </rdf:Description>
         </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/28714"/>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:language>
-      <rdf:Description rdf:nodeID="N58a1e1cb0c784799b57a6279ea4b77f3">
-        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">zh</rdf:value>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N98fe98397d8f44d8b99b62e48b24e54b">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+        <rdf:value>PL</rdf:value>
       </rdf:Description>
-    </dcterms:language>
+    </dcterms:subject>
+    <dcterms:license rdf:resource="license"/>
+    <dcterms:alternative>Tang Cai Zi Zhuan</dcterms:alternative>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/files/28714/28714-0.zip">
         <dcterms:isFormatOf rdf:resource="ebooks/28714"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nddb00364fae74312a2bc402ecff21d16">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">136890</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N6a91630f2e1f46fe8dbe5b5923f078f9">
+          <rdf:Description rdf:nodeID="N539b4eaec15945d3b20f020b7d25a5df">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N1f2843cc2f06439a80a89b2d782cd148">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
           </rdf:Description>
@@ -58,64 +123,57 @@
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-07T14:53:48</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:alternative>Tang Cai Zi Zhuan</dcterms:alternative>
-    <dcterms:license rdf:resource="license"/>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</pgterms:downloads>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/28714.kindle.noimages">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-17T08:23:50.369698</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/28714"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">302076</dcterms:extent>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">673314</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Ncd325a2b27044080acc721b7b058ddf8">
+          <rdf:Description rdf:nodeID="Nf995897f8ae743ee9f8f05f2f572e614">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T03:43:15.756848</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/28714"/>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:creator>
-      <pgterms:agent rdf:about="2009/agents/33500">
-        <pgterms:alias>辛文房</pgterms:alias>
-        <pgterms:name>Xin, Wenfang, 13th/14th cent.</pgterms:name>
-      </pgterms:agent>
-    </dcterms:creator>
     <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-05-07</dcterms:issued>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="N68cef823775d44e9b6b2cbef70fec895">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-        <rdf:value>Poets, Chinese -- Tang dynasty, 618-907 -- Biography</rdf:value>
-      </rdf:Description>
-    </dcterms:subject>
-    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</pgterms:downloads>
-    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
-    <dcterms:rights>Public domain in the USA.</dcterms:rights>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="N50ca585351d44348a6c47269a610882a">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
-        <rdf:value>PL</rdf:value>
-      </rdf:Description>
-    </dcterms:subject>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/28714/28714-0.txt">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">273517</dcterms:extent>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/28714.epub.images">
         <dcterms:isFormatOf rdf:resource="ebooks/28714"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-07T14:53:46</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nd64c95f9dbcb4447bced9a2c8626f0ca">
+          <rdf:Description rdf:nodeID="Nbab6077a489945b1a7df6ed6a0f4affe">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
           </rdf:Description>
         </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">168474</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T03:43:12.722927</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:type>
-      <rdf:Description rdf:nodeID="Nb7971fe5a2234ff4b9eac69ac0129277">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
-        <rdf:value>Text</rdf:value>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/28714.html.images">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nb7bacc25d31448af93ab948369849e1d">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T03:43:12.413928</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">338176</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/28714"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:language>
+      <rdf:Description rdf:nodeID="Na4d11305d8b640bfad4fbbe491e62770">
+        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">zh</rdf:value>
       </rdf:Description>
-    </dcterms:type>
+    </dcterms:language>
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
   </pgterms:ebook>
   <cc:Work rdf:about="">
-    <cc:license rdf:resource="http://www.gnu.org/licenses/gpl.html"/>
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
   </cc:Work>
 </rdf:RDF>
